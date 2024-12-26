@@ -1,0 +1,13 @@
+2023-12-27 20:33:27,162 - my_application - ERROR - 'host'
+Traceback (most recent call last):
+  File "E:\My projects\Automation and Scraping projects\Binance scraping\binance.py", line 48, in <module>
+    conn = psycopg2.connect(host=config["host"], database=config["database"], user=config["user"], password=config["password"])
+                                 ~~~~~~^^^^^^^^
+KeyError: 'host'
+'host'2023-12-27 20:33:32,980 - my_application - ERROR - 'host'
+Traceback (most recent call last):
+  File "E:\My projects\Automation and Scraping projects\Binance scraping\binance.py", line 48, in <module>
+    conn = psycopg2.connect(host=config["host"], database=config["database"], user=config["user"], password=config["password"])
+                                 ~~~~~~^^^^^^^^
+KeyError: 'host'
+'host'
